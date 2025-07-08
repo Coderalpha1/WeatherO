@@ -1,0 +1,53 @@
+.bgcnt{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-image: url('img/device.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.txt{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    background-color: darkcyan;
+    background-size: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.txt1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+
+}
+
+
+.device {
+    background: linear-gradient(to bottom right,white,#e1e1e2);
+    border-radius: 20px;
+    border: 2px #e1e1e2 solid;
+    padding: 2px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 4px 4px 10px(0,0,0,0.3);
+}
+
+div {
+    width: 400px;
+    margin: auto;
+}
+
